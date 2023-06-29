@@ -1,0 +1,21 @@
+.hero {
+    background-size: cover;
+    background-position: bottom;
+    height: 50rem;
+    // .hero__btn
+    display: flex;
+    align-items: flex-end;
+
+
+    &__btn {
+        display: inline-block;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 14px 31px;
+        letter-spacing: 0.36px;
+        font-weight: 400;
+        margin-bottom: 67px;
+    }
+}
+
+

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+    
+}
+body{
+    font-family: 'Inter';
+}
+.container{
+    max-width: $container;
+    margin: 0 auto;
+    padding: 0 22px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn {
+    font-size: 15px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 6px;
+    color: #000;
+    overflow: hidden;
+    &:hover span{
+        // transform: translate(0,-200%);
+        animation-name: btnAnimation;
+        animation-duration: .5s;
+        animation-timing-function: cubic-bezier(.22,1,.36,1);;
+        display: inline-flex;
+    }
+}
+@keyframes btnAnimation {
+    100% {
+        
+        transform: translateY(34px);
+    }
+    
+    0% {
+        
+        transform: translateY(0);
+    }
+    49% {
+        
+        transform: translateY(-34px);
+    }
+    51% {
+        
+        transform: translateY(34px);
+    }
+    100% {
+        
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,71 @@
+
+.contacts {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50rem;
+    &__inner {  
+        padding-top: 66px;
+    }
+
+    // .contacts__title
+
+    &__title {
+        color: #000;
+        // text-align: center;
+        font-size: 44px;
+        font-family: 'Utah';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    // .contacts__info
+
+    &__info {
+        margin-top: 72px;
+        & a{
+            color: #000;
+            text-align: center;
+            font-size: 23px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            line-height: 26px;
+            text-transform: lowercase;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    // .contacts__socials
+
+    &__socials {
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+
+    // .contacts__socials-item
+
+    &__socials-item {
+        & img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+.container {
+}
+.contacts-img {
+    
+    // & img{
+    //     position: absolute;
+    //     right: 0;
+    //     top: 0;
+    // }
+}

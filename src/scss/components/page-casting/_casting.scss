@@ -1,0 +1,111 @@
+.casting {
+
+    // .casting__inner
+
+    &__inner {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        padding: 66px 92px 112px 108px;
+        margin: 0 auto;
+        width: 63%;
+    }
+
+    // .casting__title
+
+    &__title {
+        color: #000;
+        text-align: center;
+        font-size: 44px;
+        font-family: 'Utah';
+        font-style: normal;
+        font-weight: 700;
+        // line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    // .casting__descr
+
+    &__descr {
+        margin-top: 49px;
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+
+    }
+
+    // .casting__form
+
+    &__form {
+        margin-top: 69px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .casting__form-item
+
+    &__form-item {
+        margin-bottom: 41px;
+        display: inline-flex;
+        flex-direction: column;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        & input{
+            border-radius: 4px;
+            border: 1px solid #000;
+            margin-top: 13px;
+            outline: none;
+            height: 3.1rem;
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+        }
+    }
+
+    // .casting__form-title
+
+    &__form-title {
+        color: #000;
+        font-size: 25px;
+        font-family: 'Utah';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    // .casting__form-descr
+
+    &__form-descr {
+        margin-top: 3px;
+        color: #5A5A5A;
+        font-size: 13px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: -0.13px;
+    }
+    &__form-btn {
+        border:1px solid #000;
+        background-color:transparent;
+        padding: 16px 45px;
+        cursor: pointer;
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15.6px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 212px;
+        margin: 66px auto 0 auto;
+    }
+}
+
