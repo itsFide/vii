@@ -11,14 +11,30 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 20px;
-        padding-bottom: 7px;
+        // padding-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     // .header__logo
 
     &__logo {
- 
+        display: flex;
+        align-items: center;
+        & img{
+            transform: translateY(4px);
+        }
+        & span{
+            margin-left: 5px;
+            color: #000;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Utah';
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
     }
 
     // .header__nav
@@ -32,12 +48,13 @@
         & ul{
             display: flex;
             gap: 27px;
+            align-items: center;
             & li a{
                 color: rgba(0, 0, 0, 0.85);
                 font-size: 13.2px;
-                font-family: 'Inter';
+                font-family: 'BB Regular';
                 font-style: normal;
-                font-weight: 500;
+                font-weight: 400;
                 text-transform: uppercase;
                 padding: 7px 17px;
                 border: 1px solid transparent;
@@ -64,6 +81,10 @@
     // .header__socials-item
 
     &__socials-item {
+        & a{
+            display: flex;
+            align-items: center;
+        }
     }
 
     
@@ -86,13 +107,14 @@
         align-items: center;
         gap: 5px;
         & input{
+            font-family: 'BB Regular';
             border: none;
             outline: none;
             width: 100%;
             color: #000;
             text-transform: uppercase;
             font-size: 16px;
-            font-weight: 500;
+            font-weight: 400;
             &::placeholder{
                 color: #A7A7A7;
             }
@@ -239,9 +261,9 @@
     & ul li a{
         color: rgba(0, 0, 0, 0.85);
         font-size: 20px;
-        font-family: 'Inter';
+        font-family: 'BB Regular';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 25.8px;
         text-transform: uppercase;
     }
