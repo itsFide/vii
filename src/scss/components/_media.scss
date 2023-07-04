@@ -98,6 +98,9 @@
         border: none;
         padding: 66px 62px 112px 62px;
     }
+    // .about__info p{
+    //     text-align: center;
+    // }
 }
 @media screen and (max-width:735px){
     .single-model__gallery{
@@ -148,9 +151,9 @@
         gap: 0 30px;
     }
     .contacts-page{
-        .container{
-            padding: 0 22px 0 44px;
-        }
+        // .container{
+        //     padding: 0 22px 0 44px;
+        // }
     }
     .about-ru{
         padding: 64px 0 50px 0 ;
@@ -173,7 +176,7 @@
         text-align: center;
     }
     .casting__descr{
-        text-align: left;
+        text-align: center;
         margin-top: 38px;
         line-height: 14px;
         font-size: 12px;
@@ -199,9 +202,9 @@
         margin: 81px auto 0 auto;   
     }
     .casting-page .casting{
-        .container{
-            padding: 0 44px;
-        }
+        // .container{
+        //     padding: 0 44px;
+        // }
     }
 }
 @media screen and (max-width:440px) {

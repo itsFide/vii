@@ -21,7 +21,7 @@ export const style = () => {
         .src(app.path.src.scss, { sourcemaps: true })
         .pipe(sass().on("error", sass.logError))
         .pipe(autoPrefixer()) // Расстановка префиксов
-        .pipe(gulpIf(app.isBuild, minify())) // Минификация при --build
+        // .pipe(gulpIf(app.isBuild, minify())) // Минификация при --build
         .pipe(app.gulp.dest(app.path.build.css)) // Вывод
         .pipe(app.server.stream()); // Проверка на обновления
 };
